@@ -22,7 +22,7 @@ pip install transformers peft trl accelerate datasets PyPDF2 sentencepiece
 # ══════════════════════════════════════════════════════════════════
 
 BASE_MODEL   = "mistralai/Mistral-7B-Instruct-v0.2"
-PDF_FOLDER   = "./mckinsey_pdfs"
+PDF_FOLDER   = "./McKinseyReport"
 OUTPUT_JSONL = "./mckinsey_dataset.jsonl"
 ADAPTER_DIR  = "./mckinsey_lora_fp16"
 OUTPUT_DIR   = "./checkpoints_lora_fp16"
